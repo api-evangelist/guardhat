@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://trustcenter.aatmunn.com/
+url: https://trustcenter.aatmunn.com/
+certifications:
+- SOC 2 Type II
+evidence:
+- source: https://trustcenter.aatmunn.com/
+  keywords:
+  - soc 2 type ii
+  - trust center
+  - responsible disclosure
+notes: >-
+  Aatmunn (formerly Guardhat) publishes a public Trust Center attesting SOC 2
+  Type II compliance as an ongoing commitment to security and privacy. The
+  page also references named customers (SpaceX, Amazon, Solenis) and provides a
+  vulnerability-reporting channel. No other named certifications (ISO 27001,
+  PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR) were listed at enrichment time.

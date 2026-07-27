@@ -1,22 +1,84 @@
 aid: guardhat
 name: Guardhat
-description: Guardhat is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Guardhat (now operating as Aatmunn) is an industrial safety and asset
+  intelligence platform serving more than 250 companies across oil & gas,
+  utilities, logistics and warehousing, chemicals, mining, infrastructure, and
+  manufacturing. Its SPANR platform is a unified intelligence layer that
+  collects data from connected safety devices and wearables, normalizes it into
+  a single source of truth, applies business logic, and surfaces insights
+  through a suite of applications for digital safety inspections, lone worker
+  safety, gas detection, human condition monitoring, control access zoning, and
+  asset tracking. Originally known for connected hard hats and wearable safety
+  technology, the company rebranded from Guardhat to Aatmunn. Guardhat is a
+  venture-backed portfolio company of General Catalyst. This profile has been
+  enriched from the company's public web presence; no public developer API or
+  OpenAPI surface was found at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/guardhat/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6990c5c020329496a3df0e8f/6990c5c020329496a3df130e_Aatmunn_Logo_Final.png
 x-type: company
 x-source: vc-portfolio
+x-aka: Aatmunn
 x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Industrial Safety
+- Worker Safety
+- Wearables
+- IoT
+- Asset Tracking
+- Gas Detection
+- Lone Worker
+- Occupational Health
+- Manufacturing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/guardhat-domain-security.yml
+- type: Website
+  url: https://aatmunn.com/
+- type: Blog
+  url: https://aatmunn.com/blogs
+- type: Support
+  url: https://aatmunn.com/contact-us
+- type: Login
+  url: https://iiop.aatmunn.net/login
+- type: TermsOfService
+  url: https://aatmunn.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://aatmunn.com/privacy-policy
+- type: TrustCenter
+  url: security/guardhat-trust-center.yml
+- type: Compliance
+  url: https://trustcenter.aatmunn.com/
+- type: VulnerabilityDisclosure
+  url: security/guardhat-vulnerability-disclosure.yml
+- type: Security
+  url: https://trustcenter.aatmunn.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
